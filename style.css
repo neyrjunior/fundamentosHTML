@@ -53,3 +53,26 @@ footer{
 img {
     width: 90vh;
 }
+.tabela {
+    display: block;
+}
+.atributos {
+    margin: auto;
+    width: 300px;
+    
+    button, input, textarea {
+        width: 280px;
+        padding: 8px;
+        margin-top: 16px;
+        cursor: pointer;
+        outline: none;
+
+    }
+    button {
+        background-color: green;
+        margin-top: 32px;
+        padding: 16px;
+        width: 300px;
+        
+    }
+}

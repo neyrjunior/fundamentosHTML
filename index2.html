@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rio | Imagens</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <h1>A cidade maravilhosa</h1>
@@ -13,11 +15,24 @@
     </header>
     <main>
         <h3>As maravilhas da cidade maravilhosa</h3>
-        <img src="https://adesivo.com.br/cdn/shop/products/painel-fotografico-paisagens-rio-de-janeiro-n012191-580647_750x.jpg?v=1643334164" alt="Só o basico do Rio">
+        <img src="https://adesivo.com.br/cdn/shop/products/painel-fotografico-paisagens-rio-de-janeiro-n012191-580647_750x.jpg?v=1643334164"
+            alt="Só o basico do Rio">
+        <div class="tabela">
+            <div><h2>Contate-nos</h2></div>
+            <div class="atributos">
+                <input id="nome" type="text" onkeyup='validaNome()' placeholder="Nome Completo">
+                <input id="email" type="email" onkeyup='validaEmail()' placeholder="email">
+                <textarea name="texto" id="texto" maxlength="200" placeholder="Mensagem"></textarea>
+                <button id="enviar" onclick="enviar()">Enviar</button>
+            </div>
+        </div>
     </main>
     <footer>
-        <p>desenvolvido por <a href="https://github.com/neyrjunior" alt="GitHub do melhor dev do mundo">Ney Robson</a> - Generation Brasil - 2024</p>
+        <p>desenvolvido por <a href="https://github.com/neyrjunior" alt="GitHub do melhor dev do mundo">Ney Robson</a> -
+            Generation Brasil - 2024</p>
     </footer>
-    
+
+    <script src="script.js"></script>
 </body>
+
 </html>
